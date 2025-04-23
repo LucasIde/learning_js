@@ -1,5 +1,5 @@
 body {
-    background-color: orangered;
+    background-color: salmon;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,4 +21,8 @@ form {
 
 .response {
     font-size: 2rem;
+}
+
+.active {
+    color: red;
 }
