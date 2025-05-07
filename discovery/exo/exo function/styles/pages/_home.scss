@@ -1,0 +1,30 @@
+body {
+    background-color: salmon;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    [type="number"]{
+        padding: 10px;
+        border-radius: 5px 0 0 5px;
+    }
+    [type="submit"]{
+        padding: 11px;
+        border-radius: 0 5px 5px 0;
+    }
+}
+
+.response {
+    font-size: 2rem;
+}
+
+.wrapper {
+    background-color: rgb(189, 48, 32);
+    padding: 3rem;
+    border: solid 1px #000;
+}
